@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- This especially for when the web app is being shared, there will be an displayed information about our app. -->
+	<meta property="og:title" content="I coded a game with Zuitt!" />
+    <meta property="og:description" content="This Game Development project is powered by Zuitt Coding Bootcamp" />
+    <meta property="og:site_name" content="I coded a game with Zuitt!" />
+    <meta property="og:image" content="[your-deployment-link]/images/story-thumbnail-2048.jpg" />
+    <meta property="og:image:secure_url" content="[your-deployment-link]" />
+    <title>2048</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>2048</h1>
+            <h2>Created by: Jhon Erick</h2>
+            <hr id="top-line">
+
+            <button id="new-game-button">New Game</button>
+
+            <div class="header-container">
+                <div class=score-container>
+                    <div class="score-label">Score:</div>
+                    <div id="score">0</div>
+                </div>
+                <div class="share-button-container">
+                    <div class="share-label">Share:</div>
+                    <div class="share-icons">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=[your-deployment-link]" target="_blank">
+                            <img src="./images/share_2048-fb.svg">	
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="board"></div>
+        </div>
+
+        <footer>
+            <a href="https://zuitt.co/?referral=2402-org-ali" target="_blank"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://www.facebook.com/zuitttechcareer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/zuittco" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/zuitt_co/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@zuittco" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@ZuittCo" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </footer>
+    </div>
+
+    <script src="logic.js"></script>
+    <script src="https://kit.fontawesome.com/07ba83c6f3.js" crossorigin="anonymous"></script>
+</body>
+</html>
